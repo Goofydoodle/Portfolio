@@ -43,7 +43,8 @@
     text-align: center;
     top: 150px;
     right:200px;
-     
+    padding:0px;
+    
     }
 
 .sabout{
@@ -53,6 +54,7 @@
     right:113px;
     font-size: 12px;
     padding: 0px;
+    
     }
 .about{
     position: relative;
@@ -62,6 +64,7 @@
     font-size: 15px;
     padding: 0px;
     color:#a5a5a5;
+    
     }
 
 .projects{position: relative;
@@ -70,6 +73,7 @@
     right:185px; 
     font-size: 20px;
     padding: 0px;
+    
     }
 .comingsoon{
     position: relative;
@@ -79,6 +83,7 @@
     right: 5px;
     padding: 0px;
     color: #a5a5a5;
+    
     }
 
 .contact{
@@ -89,6 +94,7 @@
     left: -192px;
     font-size: 20px;
     padding: 0px;
+    
     }
 
 .github{
@@ -99,6 +105,7 @@
     left: 33px;
     padding: 0px;
     font-size:15px;
+    
     }
 .email{
     position: relative;
@@ -108,6 +115,7 @@
     left: 73px;
     padding: 0px;
     font-size:15px;
+    
     
     }
 
@@ -122,4 +130,63 @@
         text-decoration: none;
     }
 
+    @media only screen and (max-width: 600px) {
+  .name, .sabout, .about, .projects, .comingsoon, .contact, .github, .email {
+    position: relative;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .name {
+    top: 50px; /* Adjust as needed */
+    right: 0;
+  }
+
+  .sabout {
+    top: 30px; /* Adjust as needed */
+    right: 0;
+  }
+
+  .about {
+    top: 20px; /* Adjust as needed */
+    right: 0;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+
+  .projects {
+    top: 20px; /* Adjust as needed */
+    right: 0;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+
+  .comingsoon {
+    top: -10px; /* Adjust as needed */
+    right: 0;
+    font-size: 12px; /* Adjust font size as needed */
+  }
+
+  .contact {
+    top: 10px; /* Adjust as needed */
+    right: 0;
+    left: 0;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+
+  .github, .email {
+    top: -10px; /* Adjust as needed */
+    right: 0;
+    left: 0;
+    font-size: 12px; /* Adjust font size as needed */
+  }
+}
+
+
+
+
+
+
+
+  
 </style>    
