@@ -19,10 +19,12 @@
  <h3>+projects</h3>
 
 
-
-   <div class="comingsoon">
-    <h4>• coming soon</h4>
-   </div>
+  <div class="QR-Gen">
+    <h4><a href="https://github.com/Goofydoodle/QR-Gen" target="_blank">•QR-Gen</a></h4> 
+  </div>
+  <div class="QR-Gen-desc">
+    <p>QR-Gen is a CLI QR code generator made with Python.</p>
+  </div>
 </div>
 
 
@@ -75,12 +77,23 @@
     padding: 0px;
     
     }
-.comingsoon{
+.QR-Gen{
     position: relative;
     text-align: center;
-    font-size:15px;
+    font-size:17px;
     top: -15px;
-    right: 5px;
+    right: 25px;
+    padding: 0px;
+    color: #a5a5a5;
+    
+    }
+
+.QR-Gen-desc{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    top: -30px;
+    left: 155px;
     padding: 0px;
     color: #a5a5a5;
     
@@ -119,19 +132,48 @@
     
     }
 
+ a {
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #a5a5a5 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+ }
 
- a:hover{
-    color: rgb(75, 172, 75);
-    text-decoration: none;
-    }
+ a:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
 
-    a{
-        color: rgb(165, 165, 165);
-        text-decoration: none;
-    }
+ a:hover {
+ background-position: 0;
+ }
+
+ a:hover::before{
+  width: 100%;
+ }
+
+ 
+
 
     @media only screen and (max-width: 600px) {
-  .name, .sabout, .about, .projects, .comingsoon, .contact, .github, .email {
+  .name, .sabout, .about, .projects, .QR-Gen, .QR-Gen-desc, .contact, .github, .email {
     position: relative;
     text-align: center;
     top: 0;
@@ -140,48 +182,45 @@
   }
 
   .name {
-    top: 50px; /* Adjust as needed */
+    top: 50px; 
     right: 0;
   }
 
   .sabout {
-    top: 30px; /* Adjust as needed */
+    top: 30px; 
     right: 0;
   }
 
   .about {
-    top: 20px; /* Adjust as needed */
+    top: 20px; 
     right: 0;
-    font-size: 14px; /* Adjust font size as needed */
+    font-size: 14px; 
   }
 
   .projects {
-    top: 20px; /* Adjust as needed */
+    top: 20px; 
     right: 0;
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px; 
   }
 
-  .comingsoon {
-    top: -10px; /* Adjust as needed */
+  .QR-Gen, .QR-Gen-desc {
+    top: -10px; 
     right: 0;
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 14px; 
   }
 
   .contact {
-    top: 10px; /* Adjust as needed */
+    top: 10px; 
     right: 0;
     left: 0;
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px; 
   }
 
   .github, .email {
-    top: -10px; /* Adjust as needed */
+    top: -10px; 
     right: 0;
     left: 0;
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px; 
   }
 }
-
-
-  
-</style>    
+</style>   
