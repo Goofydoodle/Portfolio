@@ -102,7 +102,7 @@
 .contact{
     position: relative;
     text-align: center;
-    top: 110px;
+    top: 100px;
     right: 10px;
     left: -192px;
     font-size: 20px;
@@ -123,7 +123,7 @@
 .email{
     position: relative;
     text-align: center; 
-    top: -15px;
+    top: -25px;
     right: 0px;
     left: 73px;
     padding: 0px;
@@ -168,9 +168,6 @@
  a:hover::before{
   width: 100%;
  }
-
- 
-
 
     @media only screen and (max-width: 600px) {
   .name, .sabout, .about, .projects, .QR-Gen, .QR-Gen-desc, .contact, .github, .email {
