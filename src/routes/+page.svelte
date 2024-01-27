@@ -23,7 +23,7 @@
     <h4><a href="https://github.com/Goofydoodle/QR-Gen" target="_blank">•QR-Gen</a></h4> 
   </div>
   <div class="QR-Gen-desc">
-    <p>QR-Gen is a CLI QR code generator made with Python.</p>
+    <p>QR-Gen is a QR code generator made with Python.</p>
   </div>
 </div>
 
@@ -93,7 +93,7 @@
     text-align: center;
     font-size: 14px;
     top: -30px;
-    left: 155px;
+    left: 138px;
     padding: 0px;
     color: #a5a5a5;
     
