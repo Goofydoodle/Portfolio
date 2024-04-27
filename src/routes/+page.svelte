@@ -25,6 +25,8 @@
   <div class="QR-Gen-desc">
     <p>QR-Gen is a QR code generator made with Python.</p>
   </div>
+
+
 </div>
 
 
