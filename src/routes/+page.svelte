@@ -69,7 +69,7 @@
     to right,
     #54b3d6,
     #54b3d6 50%,
-    #a5a5a5 50%
+    #F97300 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
